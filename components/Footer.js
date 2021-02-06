@@ -13,22 +13,22 @@ const Footer = () => (
     <nav className="mt3">
       <Link href="/about" prefetch={false}>
         <a className="link" href="/about">
-          about
+          关于
         </a>
       </Link>
       <a className="link" href="https://github.com/carbon-app/carbon">
-        source
-      </a>
+        源码
+      </a> {/* 
       <a className="link" href="/terms">
         terms
-      </a>
-      <a className="link" href="/privacy">
+      </a> */}
+      {/* <a className="link" href="/privacy">
         privacy
-      </a>
+      </a> */}
       <EmailSubscribe />
-      <a className="link" href="/offsets">
+      {/* <a className="link" href="/offsets">
         offsets
-      </a>
+      </a> */}
       {/* <span className="new">New</span> */}
     </nav>
 
@@ -37,7 +37,6 @@ const Footer = () => (
       <a className="author-link" href="https://twitter.com/carbon_app">
         @carbon_app
       </a>{' '}
-      ¬
     </div>
     <style jsx>
       {`
