@@ -12,6 +12,7 @@ import GlobalHighlights from '../../components/Themes/GlobalHighlights'
 import { DEFAULT_CODE, DEFAULT_SETTINGS, THEMES_HASH } from '../../lib/constants'
 import { getRouteState } from '../../lib/routing'
 
+// test
 const Page = props => (
   <React.Fragment>
     <Head>
